@@ -32,6 +32,7 @@ header{
     gap: 15px;
     justify-content: space-between;
     background-color: black;
+    align-items: center;
     
 }
 .o-nas{
