@@ -252,7 +252,7 @@ footer{
         /*width: 95px;
         height: 61px;*/
         padding: 10px;
-        font-size: 10px;
+        font-size: auto;
         background-color: white;
         text-align: center;
         text-decoration: none;
@@ -262,14 +262,14 @@ footer{
         /*width: 95px;
         height: 61px;*/
         padding: 10px;
-        font-size: 10px;
+        font-size: auto;
         background-color: white;
         text-align: center;
         text-decoration: none;
         color:black;
     }
     .logo-link{
-        text-size: 10px;
+        font-size: 10px;
     }
     .image2{
         display: none;
