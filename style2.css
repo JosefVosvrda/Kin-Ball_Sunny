@@ -52,15 +52,15 @@ header{
     text-align: center;
     text-decoration: none;
 }
-.kalendar{
-    /* width: 95px;
-    height: 61px;*/
+/*.kalendar{
+    width: 95px;
+    height: 61px;
     padding: 20px;
     font-size: 20px;
     background-color: white;
     text-align: center;
     text-decoration: none;
-}
+}*/
 main{
     width: 90%;
     max-width: 1500px;
@@ -135,4 +135,53 @@ footer{
     height:61px ;
     background-color: white;
     grid-column:5 / span 2;
+}
+@media screen and (max-width: 1024px){
+    main{
+        flex-direction: column;
+    }
+    .content1-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-uvod{
+        grid-column: span 6;
+        width: auto;
+    }
+    .image1{
+        grid-column: span 6;
+        width: 75%;
+    }
+    .text-historie{
+        grid-column: span 6;
+    }
+}
+@media screen and (max-width: 480px) {
+    .image1{
+        width: 100%;
+    }
+    .o-nas{
+        /*width: 95px;
+        height: 61px;*/
+        padding: 10px;
+        font-size: auto;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    .kontakty{
+        /*width: 95px;
+        height: 61px;*/
+        padding: 10px;
+        font-size: auto;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+    }
+    .logo-link{
+        font-size: 10px;
+    }
+
 }
