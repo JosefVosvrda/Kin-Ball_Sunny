@@ -106,3 +106,40 @@ footer{
     background-color: white;
     grid-column:5 / span 2;
 }
+@media screen and (max-width: 1024px){
+    main{
+        flex-direction: column;
+    }
+    .text-box{
+        grid-column: span 6;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .o-nas{
+        /*width: 95px;
+        height: 61px;*/
+        padding: 10px;
+        font-size: auto;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    .kontakty{
+        /*width: 95px;
+        height: 61px;*/
+        padding: 10px;
+        font-size: auto;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+    }
+    .logo-link{
+        font-size: 10px;
+    }
+
+}
