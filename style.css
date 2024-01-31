@@ -253,11 +253,11 @@ footer{
     }
     .o-nas{
         padding: 10px;
-        font-size: 0;
+        font-size: x-small;
     }
     .kontakty{
         padding: 10px;
-        font-size: 0;
+        font-size: x-small;
     }
     .image2{
         display: none;
