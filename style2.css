@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFC107;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width:100% ;
+    height: 105px;
+    background-color: black;
+}
+.header-wrapper{
+    height: 100%;
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color: #FFC107;
+    text-decoration: none;
+}
+.logo-link{
+    text-decoration: none;
+}
+.header-a{
+    display: flex;
+    width: fit-content;
+    gap: 15px;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.o-nas{
+    /*width: 95px;
+    height: 61px;*/
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.kontakty{
+    /*width: 95px;
+    height: 61px;*/
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.kalendar{
+    /* width: 95px;
+    height: 61px;*/
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+main{
+    width: 90%;
+    max-width: 1500px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: white;
+}
+.content{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    margin-bottom: 20px;
+    margin: 20px 40px;
+}
+.h2-uvod{
+    text-align: center;
+    font-size: 35px;
+}
+.h2-historie{
+    text-align: center;
+    font-size: 35px;
+}
+.content1-wrapper{
+    display: flex;
+    flex-direction: row;
+    grid-column: span 6;
+    gap: 15px;
+}
+.image1{
+    display: flex;
+    align-items: center;
+    grid-column: span 2;
+}
+.text-uvod{
+    flex-direction: column;
+    width: 75%;
+
+}
+.text-historie{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 6;
+}
+
+footer{
+    width:100% ;
+    height: 105px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.footer-wrapper{
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+.foot-box1{
+    width: auto;
+    height:61px ;
+    background-color: white;
+    grid-column: span 2;
+}
+.foot-box2{
+    width: auto;
+    height:61px ;
+    background-color: white;
+    grid-column:5 / span 2;
+}
