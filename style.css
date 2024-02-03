@@ -17,9 +17,8 @@ header{
     max-width: 1500px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
 .wrap a.icon{
     background: black;
@@ -29,6 +28,9 @@ header{
 
 }
 
+.active{
+    background-color: black;
+}
 .header-wrapper{
     height: 100%;
     width: 90%;
@@ -56,6 +58,7 @@ header{
 
 .wrap #top-nav{ 
     display: none;
+    gap: 15px;
 /*    width: fit-content;
     gap: 15px;
     margin-bottom: 10px;

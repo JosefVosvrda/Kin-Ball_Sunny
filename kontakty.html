@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kin-Ball Sunny Canadian</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <header>
         
         <div class="header-wrapper">
             <a class="logo-skoly" href="https://www.sunnycanadian.cz">
-                <img class="fotologo" src="logo(2).png" width="100%" height="auto">            </a>
+                <img class="fotologo" src="logo(2).png" width="100%" height="auto">
+            </a>
             <a class="logo-link" href="index.html">
                 <h1 class="logo">
                     KIN-BALL<br>SUNNY CANADIAN
@@ -20,7 +21,12 @@
             </a>
     </div>
     <div class="wrap">
-        <div class="top-nav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="material-symbols-outlined" style="font-size: 40px;">
+                expand_more
+            </span>
+        </a>
+        <div id="top-nav">
             <a class="o-nas" href="onas.html">
                 O Nás
             </a>
@@ -62,5 +68,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("top-nav");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+        </script>
 </body>
 </html>
