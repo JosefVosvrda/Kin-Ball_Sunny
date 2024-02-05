@@ -66,6 +66,16 @@ header{
     align-items: center;*/
     
 }
+.o-nas:hover{
+    /*background-color: #FFC107;*/
+    background-color: #717171;
+    color: white;
+}
+.kontakty:hover{
+        /*background-color: #FFC107;*/
+        background-color: #717171;
+        color: white;
+}
 .o-nas{
 /*    width: 95px;
     height: 61px;*/
